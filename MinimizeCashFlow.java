@@ -25,7 +25,7 @@ public class MinimizeCashFlow {
             balance.put(from, balance.get(from) - amount);
             balance.put(to, balance.get(to) + amount);
         }
-        PriorityQueue<Person> creditors = new PriorityQueue<>((a, b) -> Long.compare(b.amount, a.amount));
+        PriorityQueue<Person> creditors = new PriorityQueue<>((a, b) -> Long.compare(b.amount, a.amount)); 
         PriorityQueue<Person> debtors = new PriorityQueue<>((a, b) -> Long.compare(a.amount, b.amount));
 
         for (String person : balance.keySet()) {
