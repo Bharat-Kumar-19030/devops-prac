@@ -1,6 +1,6 @@
 on:
-  scheduled:
-    -cron: '17 5 * * *'
+  schedule:
+    -cron: '18 5 * * *'
 jobs:
   deploy:
     runs-on: ubuntu-latest
