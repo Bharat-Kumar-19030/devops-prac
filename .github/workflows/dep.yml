@@ -1,6 +1,7 @@
 on:
   schedule:
     - cron: '24 5 * * *'
+  workflow_dispatch:
 jobs:
   deploy:
     runs-on: ubuntu-latest
