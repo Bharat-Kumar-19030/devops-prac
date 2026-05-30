@@ -1,5 +1,6 @@
 on:
-  push:
+  scheduled:
+    -cron: '17 5 * * *'
 jobs:
   deploy:
     runs-on: ubuntu-latest
