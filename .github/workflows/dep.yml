@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '19 5 * * *'
+    - cron: '24 5 * * *'
 jobs:
   deploy:
     runs-on: ubuntu-latest
