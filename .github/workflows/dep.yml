@@ -1,7 +1,7 @@
 on:
   push:
 jobs:
-  name: 'deploy'
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo 'hello'
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'hello'
